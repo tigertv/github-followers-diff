@@ -47,6 +47,8 @@ def getDiff(user):
 				break
 		if not isFollower:
 			diff.append(follower)
+
+	diff.append("=========================")
 	
 	for followi in following:
 		isFollowi = False
